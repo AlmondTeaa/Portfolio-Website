@@ -138,7 +138,8 @@ div.myself img {
 
 
 /*========================Experience Section======================== */
-div.design-cont{
+/*--------------------------Title--------------------------*/
+div.exp-title{
   background-color: #7AB89F;
   text-align: center;
   padding-top: 10px;
@@ -146,13 +147,51 @@ div.design-cont{
   font-size: 18px;
 }
 
-hr.exp {
+hr.exp-title {
   border: none;
   height: 2px;              /* line thickness */
   background-color: black; /* line color */
   width: 50%;               /* line length */
   margin: 20px auto;        /* center line horizontally */
 }
-p.exp{
+p.exp-title {
   opacity: 0.4;
+}
+
+/*--------------------------Experience Summary--------------------------*/
+div.container {
+  margin: 0;
+  height: 800px;
+  width: 100%;
+  display: flex;
+}
+div.exp-left-design-container {
+  width: 3%;
+  background-color: #7AB89F;
+}
+div.exp-center-design-container {
+  width: 77%;
+  padding: 20px 20px;
+}
+
+td.experience-titles {
+  padding: 25px 25px;
+  font-weight: bold;
+  font-size:30px;
+}
+td.job-summary{
+  padding-left: 50px;
+  font-size:24px;
+}
+div.exp-right-design-container {
+  width: 20%;
+  justify-content: center;
+  padding-top: 10px;
+}
+div.exp-right-design-container img {
+  max-width: 90%;           /* image fits inside the box */
+  max-height: 90%;          /* respects box height */
+  object-fit: cover;         /* fills box while keeping aspect ratio */
+  border-radius: 10px;       /* optional: match box corners */
+  padding-top: 5px;
 }
