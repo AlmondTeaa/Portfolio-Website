@@ -9,80 +9,79 @@
 <body>
 
   <nav>
-    <h1>Almonte’s Portfolio</h1>
+    <!----------------------- Navigation Logo ----------------------------->
+    <a href = "#hero">
+      <h1 class = logo>
+        <span style="color: #7AB89F;">Almonte's</span>
+        <span style="color: black;">Portfolio</span>
+      </h1>
+    </a>
+
+    <!--------------------- Navigation Menu Items ----------------------------->
     <ul>
-      <li>Skills</li>
-      <li>Experience</li>
-      <li>Education</li>
-      <li>Projects</li>
+      <li><a href = "#exp">Experience</a></li>
+      <li><a href = "#skill">Skill</a></li>
+      <li><a href = "#educ">Education</a></li>
+      <li><a href = "#proj">Projects</a></li>
     </ul>
+  
   </nav>
 
-  <section class="hero">
-    <div class="intro">
-      <h2>Hi there,<br>I'm Jos Almonte</h2>
-      <p>
-        Junior backend developer with hands-on experience in Erlang and Rust, focusing on HTTP server development using Cowboy and Axum. Knowledgeable in state machines, SSL/TLS implementation, and fundamentals of KMS and AI. Built a graph engine by adapting Mnesia-based logic to work with Riak.
+   <!--=========================== Hero Section START =========================-->
+  <section id ="hero" class="hero">
+  <!------------------------------ Left Column -------------------------------->
+    <div class="hero-left">
+      <!--------------------- Hero Page Introduction ----------------------------->
+      <div>
+        <h2>
+          <span class="greetings">Hi there,</span><br>
+          <span class="name">I'm Jos Almonte</span>
+        </h2>
+        <p class="introduction">
+          Junior backend developer with hands-on experience in Erlang and Rust, 
+          focusing on HTTP server development using Cowboy and Axum. 
+          Knowledgeable in state machines, SSL/TLS implementation, and fundamentals 
+          of KMS and AI. Built a graph engine by adapting Mnesia-based logic to 
+          work with Riak.
+        </p> 
+      </div>
+
+      <!--------------------- Hero Page Socials ----------------------------->
+      <div class="socials">
+        <a href="https://github.com/yourprofile" target="_blank">
+          <img src="images/github.png" alt="GitHub">
+        </a>
+
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">
+          <img src="images/linkedin.png" alt="LinkedIn">
+        </a>
+
+        <a href="mailto:youremail@example.com">
+          <img src="images/email.png" alt="Email">
+        </a>
+      </div>
+    </div>
+
+<!------------------------------ Right Column -------------------------------->
+    <div class="hero-right">
+      <!--------------------- Myself Picture ----------------------------->
+      <div class="myself">
+        <img src="images/profile.jpg">
+      </div>
+    </div>
+  </section>
+  <!--=========================== Experience Section END =========================-->
+  <section>
+    <div class= "design-cont">
+      <h1>Experience</h1>
+      <hr class="exp">
+      <p class="exp">
+        Roles that I had taken on
       </p>
-        <div class="social-icons">
-          <a href="https://github.com/yourprofile" target="_blank">
-            <img src="images\github.png" alt="GitHub">
-          </a>
-
-          <a href="https://linkedin.com/in/yourprofile" target="_blank">
-            <img src="images\linkedin.png" alt="LinkedIn">
-          </a>
-
-          <a href="mailto:youremail@example.com">
-            <img src="images\email.png" alt="Email">
-          </a>
-      </div> 
     </div>
-    <img src="images\profile.jpg" alt="Jos Almonte">
+
+    
   </section>
 
-  <section class = experience>
-    <div>
-      <h2>EXPERIENCE</h2>
-      <table>
-        <tr>
-          <td><p>2024 – Present</p></td>
-          <td>
-            <h3>Jr. Software Engineer</h3>
-          </br>
-            <ul>
-              <li>Implemented SSL/TLS for secure client-server communication.</li>
-              <li>Built a high-performance Graph Engine on Riak DB.</li>
-              <li>Researched and documented LLM (AI) training processes.</li>
-              <li>Developed a Data Sovereignty Service integrating KMS (GCP, Azure, AWS) and IDP.</li>
-            </ul>
-          </td>
-        </tr>
+  <!--=========================== Experience Section END =========================-->
 
-        <tr>
-          <td><p>2024</p></td>
-          <td>
-            <h3>Intern</h3>
-          </br>
-            <ul>
-              <li>Assisted the R&D team with project execution, documentation, and 5S implementation to improve efficiency and organization.</li>
-            </ul>
-          </td>
-        </tr>
-
-        <tr>
-          <td><p>2020</p></td>
-          <td>
-            <h3>Intern</h3>
-          </br>
-            <ul>
-              <li>Assisted with administrative and office operations.</li>
-            </ul>
-          </td>
-        </tr>
-      </table>
-    </div>
-  </section>
-  
-</body>
-</html>

@@ -1,0 +1,24 @@
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background-color: #e0e0e0;
+    }
+
+    nav h1.logo {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav h1.logo::before{
+      content: "logo";
+      width: 40px;   /* adjust size */
+      height: 40px;
+      background-image: url("../images/"); /* your logo path */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      flex-shrink: 0; /* prevents distortion */
+    }
