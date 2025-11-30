@@ -147,19 +147,20 @@ div.exp-title{
   font-size: 18px;
 }
 
-hr.exp-title {
+div.exp-title hr {
   border: none;
   height: 2px;              /* line thickness */
   background-color: black; /* line color */
   width: 50%;               /* line length */
   margin: 20px auto;        /* center line horizontally */
+  opacity: 0.6;
 }
-p.exp-title {
+div.exp-title p {
   opacity: 0.4;
 }
 
 /*--------------------------Experience Summary--------------------------*/
-div.container {
+div.exp-container {
   margin: 0;
   height: 800px;
   width: 100%;
@@ -171,7 +172,7 @@ div.exp-left-design-container {
 }
 div.exp-center-design-container {
   width: 77%;
-  padding: 20px 20px;
+  padding: 20px 15px;
 }
 
 td.experience-titles {
@@ -187,6 +188,7 @@ div.exp-right-design-container {
   width: 20%;
   justify-content: center;
   padding-top: 10px;
+  padding-right: 50px;
 }
 div.exp-right-design-container img {
   max-width: 90%;           /* image fits inside the box */
@@ -194,4 +196,45 @@ div.exp-right-design-container img {
   object-fit: cover;         /* fills box while keeping aspect ratio */
   border-radius: 10px;       /* optional: match box corners */
   padding-top: 5px;
+}
+
+/*========================Skill Section======================== */
+/*--------------------------Title--------------------------*/
+div.skill-title{
+  background-color: #7AB89F;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  height: 50px;
+  font-size: 18px;
+}
+div.skill-title p {
+  opacity: 0.4;
+  display: flex;
+  gap: 10px;
+}
+div.skill-title p::before,
+div.skill-title p::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid black; /* line style */
+  width: 50px;;
+  margin-bottom: 9px;
+}
+
+/*--------------------------Skill Summary--------------------------*/
+div.skill-container {
+  margin: 0;
+  height: 800px;
+  width: 100%;
+  display: flex;
+}
+div.skill-right-design-container {
+  width: 3%;
+  background-color: #7AB89F;
+}
+div.skill-left-design-container {
+  width: 97%;
+  padding: 20px 20px;
 }
