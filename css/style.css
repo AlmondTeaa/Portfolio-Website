@@ -11,6 +11,9 @@ nav {
   align-items: center;
   padding: 20px 70px;
   background-color: #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* so it stays above other content */
 }
 
 /*--------------------------------Logo---------------------------*/
