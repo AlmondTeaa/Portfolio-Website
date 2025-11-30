@@ -135,11 +135,8 @@ div.myself img {
   border-radius: 10px;       /* optional: match box corners */
 }
 
-
-
-/*========================Experience Section======================== */
-/*--------------------------Title--------------------------*/
-div.exp-title{
+/*===================== Section Titles=================*/
+div.section-title{
   background-color: #7AB89F;
   text-align: center;
   padding-top: 10px;
@@ -147,7 +144,7 @@ div.exp-title{
   font-size: 18px;
 }
 
-div.exp-title hr {
+div.section-title hr {
   border: none;
   height: 2px;              /* line thickness */
   background-color: black; /* line color */
@@ -155,21 +152,22 @@ div.exp-title hr {
   margin: 20px auto;        /* center line horizontally */
   opacity: 0.6;
 }
-div.exp-title p {
+div.section-title p {
   opacity: 0.4;
 }
-
-/*--------------------------Experience Summary--------------------------*/
-div.exp-container {
+div.section-container {
   margin: 0;
   height: 800px;
   width: 100%;
   display: flex;
 }
-div.exp-left-design-container {
+div.section-left-design-container {
   width: 3%;
   background-color: #7AB89F;
 }
+/*========================Experience Section======================== */
+/*--------------------------Experience Summary--------------------------*/
+
 div.exp-center-design-container {
   width: 77%;
   padding: 20px 15px;
@@ -199,41 +197,8 @@ div.exp-right-design-container img {
 }
 
 /*========================Skill Section======================== */
-/*--------------------------Title--------------------------*/
-div.skill-title{
-  background-color: #7AB89F;
-  text-align: center;
-  padding-top: 10px;
-  padding-left: 200px;
-  padding-right: 200px;
-  height: 50px;
-  font-size: 18px;
-}
-div.skill-title p {
-  opacity: 0.4;
-  display: flex;
-  gap: 10px;
-}
-div.skill-title p::before,
-div.skill-title p::after {
-  content: "";
-  flex: 1;
-  border-bottom: 1px solid black; /* line style */
-  width: 50px;;
-  margin-bottom: 9px;
-}
-
 /*--------------------------Skill Summary--------------------------*/
-div.skill-container {
-  margin: 0;
-  height: 800px;
-  width: 100%;
-  display: flex;
-}
-div.skill-left-design-container {
-  width: 3%;
-  background-color: #7AB89F;
-}
+
 div.skill-right-design-container {
   width: 97%;
   padding: 20px 20px;
