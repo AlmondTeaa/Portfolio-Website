@@ -65,7 +65,7 @@ section.hero {
   padding-left: 7vw;
   padding-right: 4vw;
   display: flex;
-  height:600px;
+  height:70vh;
 }
 div.hero-left{
   width: 70%;
@@ -145,13 +145,14 @@ div.section-title{
   padding-top: 0.3vh;
   height: 15vh;
   font-size: 18px;
+  width: 100vw;
 }
 
 div.section-title hr {
   border: none;
   height: 2px;              /* line thickness */
   background-color: black; /* line color */
-  width: 50%;               /* line length */
+  width: 50vw;               /* line length */
   margin: 20px auto;        /* center line horizontally */
   opacity: 0.6;
 }
