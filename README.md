@@ -1,7 +1,8 @@
-# Boss Tea — Portfolio
-
+Notes:
+- Currently incompatible with mobile
+- Projects hasn't been finished yet
 ## About Me
-Hi! I’m Boss Tea, a junior developer with experience in backend systems, SSL/TLS, authentication APIs, and state machines. I enjoy building secure, high-performance applications and exploring AI projects.
+Hi! I’m Boss Tea, a junior developer with experience in backend systems, SSL/TLS, authentication APIs, and state machines. .
 
 ---
 
