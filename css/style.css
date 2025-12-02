@@ -12,8 +12,8 @@ nav {
   padding: 20px 70px;
   background-color: #e0e0e0;
   position: sticky;
-  top: 0;
   z-index: 1000; /* so it stays above other content */
+  top: 0;
 }
 
 /*--------------------------------Logo---------------------------*/
@@ -29,7 +29,7 @@ nav h1.logo {
   font-size: 24px;
   display: flex;          /* needed! */
   align-items: center;    /* aligns logo + text */
-  gap: 10px;              /* space between logo + title */
+  gap: 0.5vw;              /* space between logo + title */
   cursor: pointer;
 }
 
@@ -47,7 +47,7 @@ nav h1.logo::before {
 /*--------------------------Nav Menu Items--------------------------*/
 nav ul {
   display: flex;
-  gap: 50px;            /* space between menu items */
+  gap: 2vw;            /* space between menu items */
   list-style: none;     /* remove bullets */
   margin: 0;            /* remove default margin */
   padding: 0;           /* remove default padding */
@@ -61,9 +61,9 @@ nav li:hover {
 
 /*========================Hero Section======================== */
 section.hero {
-  padding-top: 50px;
-  padding-left: 70px;
-  padding-right: 40px;
+  padding-top: 5vh;
+  padding-left: 7vw;
+  padding-right: 4vw;
   display: flex;
   height:600px;
 }
@@ -88,20 +88,20 @@ span.name {
 }
 
 p.introduction{
-  padding-left: 20px;
+  padding-left: 3vw;
   font-size: 30px;
   text-align: justify;
 } 
 /*--------------------------Socials--------------------------*/
 div.socials {
   display: flex;
-  gap: 30px;
-  margin-top: 100px;
-  padding-left: 150px;
+  gap: 2vw;
+  margin-top: 5vh;
+  padding-left: 7vw;
 }
 
 div.socials a {
- width: 40px;
+  width: 40px;
   height: 40px;
   border-radius: 50%;
   border: 1px solid black;
@@ -142,8 +142,8 @@ div.myself img {
 div.section-title{
   background-color: #7AB89F;
   text-align: center;
-  padding-top: 10px;
-  height: 150px;
+  padding-top: 0.3vh;
+  height: 15vh;
   font-size: 18px;
 }
 
@@ -160,7 +160,7 @@ div.section-title p {
 }
 div.section-container {
   margin: 0;
-  height: 800px;
+  min-height: 80vh;
   width: 100%;
   display: flex;
 }
@@ -171,32 +171,34 @@ div.section-left-design-container {
 /*========================Experience Section======================== */
 /*--------------------------Experience Summary--------------------------*/
 
-div.exp-center-design-container {
+div.exp-educ-center-design-container {
   width: 77%;
-  padding: 20px 15px;
+  padding: 5vh 2vw;
 }
 
-td.experience-titles {
-  padding: 25px 25px;
+td.exp-educ-titles {
+  padding-top: 2vh;
+  width: 25vw;
   font-weight: bold;
   font-size:30px;
 }
-td.job-summary{
-  padding-left: 50px;
+td.exp-educ-summary{
   font-size:24px;
+  width: 100vw;
 }
-div.exp-right-design-container {
+div.exp-educ-right-design-container {
   width: 20%;
   justify-content: center;
-  padding-top: 10px;
-  padding-right: 50px;
+  padding-top: 5vh;
+  padding-right: 5vw;
+  padding-bottom: 2vh;
 }
-div.exp-right-design-container img {
-  max-width: 90%;           /* image fits inside the box */
-  max-height: 90%;          /* respects box height */
+div.exp-educ-right-design-container img {
+  height: 300px;           /* image fits inside the box */
+  width: 350px;          /* respects box height */
   object-fit: cover;         /* fills box while keeping aspect ratio */
-  border-radius: 10px;       /* optional: match box corners */
-  padding-top: 5px;
+  border-radius: 75px;       /* optional: match box corners */
+  padding-top: 0.5vh;
 }
 
 /*========================Skill Section======================== */
@@ -204,7 +206,7 @@ div.exp-right-design-container img {
 
 div.skill-right-design-container {
   width: 97%;
-  padding: 20px 20px;
+  padding: 5vh 5vw;
 }
 div.skill-right-design-container table {
   width: 100%;
@@ -217,9 +219,9 @@ div.skill-right-design-container td {
 
 div.skill-right-design-container img {
   object-fit: contain;
-  height: 205px;
-  width: 205px;
-  padding: 50px 50px;
+  height: 175px;
+  width: 175px;
+  padding: 5vh 5vw;
 }
 
 div.skill-right-design-container p {
