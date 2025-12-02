@@ -9,7 +9,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2vh 7vw;
+  padding: 20px 70px;
   background-color: #e0e0e0;
   position: sticky;
   z-index: 1000; /* so it stays above other content */
@@ -68,11 +68,11 @@ section.hero {
   height:70vh;
 }
 div.hero-left{
-  width: 70vw;
+  width: 70%;
 
 }
 div.hero-right{
-  width: 30vw;
+  width: 30%;
   padding-left: 50px;
   justify-content: center;
 }
@@ -125,7 +125,7 @@ div.socials a:hover {
 /*--------------------------Myself--------------------------*/
 div.myself{
   border-radius: 10px; 
-  height: 60vh;
+  height: 90%;
   display: flex;             /* enable flexbox */
   justify-content: center;   /* horizontally center content */
   align-items: center;       /* vertically center content */
@@ -162,18 +162,18 @@ div.section-title p {
 div.section-container {
   margin: 0;
   min-height: 80vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
 }
 div.section-left-design-container {
-  width: 3vw;
+  width: 3%;
   background-color: #7AB89F;
 }
 /*========================Experience Section======================== */
 /*--------------------------Experience Summary--------------------------*/
 
 div.exp-educ-center-design-container {
-  width: 77vw;
+  width: 77%;
   padding: 5vh 2vw;
 }
 
@@ -188,7 +188,7 @@ td.exp-educ-summary{
   width: 100vw;
 }
 div.exp-educ-right-design-container {
-  width: 20vw;
+  width: 20%;
   justify-content: center;
   padding-top: 5vh;
   padding-right: 5vw;
@@ -206,11 +206,11 @@ div.exp-educ-right-design-container img {
 /*--------------------------Skill Summary--------------------------*/
 
 div.skill-right-design-container {
-  width: 97vw;
+  width: 97%;
   padding: 5vh 5vw;
 }
 div.skill-right-design-container table {
-  width: 100vw;
+  width: 100%;
 }
 
 div.skill-right-design-container td {
