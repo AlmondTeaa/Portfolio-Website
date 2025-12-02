@@ -206,3 +206,24 @@ div.skill-right-design-container {
   width: 97%;
   padding: 20px 20px;
 }
+div.skill-right-design-container table {
+  width: 100%;
+}
+
+div.skill-right-design-container td {
+  justify-content: center;
+  text-align: center;
+}
+
+div.skill-right-design-container img {
+  object-fit: contain;
+  height: 205px;
+  width: 205px;
+  padding: 50px 50px;
+}
+
+div.skill-right-design-container p {
+  font-size: 24px;
+  font-weight: bold;
+
+}
