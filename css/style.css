@@ -65,7 +65,7 @@ section.hero {
   padding-left: 7vw;
   padding-right: 4vw;
   display: flex;
-  height:600px;
+  height:70vh;
 }
 div.hero-left{
   width: 70vw;
@@ -145,6 +145,7 @@ div.section-title{
   padding-top: 0.3vh;
   height: 15vh;
   font-size: 18px;
+  width: 100vw;
 }
 
 div.section-title hr {
