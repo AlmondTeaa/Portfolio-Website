@@ -9,7 +9,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 70px;
+  padding: 2vh 7vw;
   background-color: #e0e0e0;
   position: sticky;
   z-index: 1000; /* so it stays above other content */
@@ -68,11 +68,11 @@ section.hero {
   height:600px;
 }
 div.hero-left{
-  width: 70%;
+  width: 70vw;
 
 }
 div.hero-right{
-  width: 30%;
+  width: 30vw;
   padding-left: 50px;
   justify-content: center;
 }
@@ -125,7 +125,7 @@ div.socials a:hover {
 /*--------------------------Myself--------------------------*/
 div.myself{
   border-radius: 10px; 
-  height: 90%;
+  height: 60vh;
   display: flex;             /* enable flexbox */
   justify-content: center;   /* horizontally center content */
   align-items: center;       /* vertically center content */
@@ -151,7 +151,7 @@ div.section-title hr {
   border: none;
   height: 2px;              /* line thickness */
   background-color: black; /* line color */
-  width: 50%;               /* line length */
+  width: 50vw;               /* line length */
   margin: 20px auto;        /* center line horizontally */
   opacity: 0.6;
 }
@@ -161,18 +161,18 @@ div.section-title p {
 div.section-container {
   margin: 0;
   min-height: 80vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
 }
 div.section-left-design-container {
-  width: 3%;
+  width: 3vw;
   background-color: #7AB89F;
 }
 /*========================Experience Section======================== */
 /*--------------------------Experience Summary--------------------------*/
 
 div.exp-educ-center-design-container {
-  width: 77%;
+  width: 77vw;
   padding: 5vh 2vw;
 }
 
@@ -187,7 +187,7 @@ td.exp-educ-summary{
   width: 100vw;
 }
 div.exp-educ-right-design-container {
-  width: 20%;
+  width: 20vw;
   justify-content: center;
   padding-top: 5vh;
   padding-right: 5vw;
@@ -205,11 +205,11 @@ div.exp-educ-right-design-container img {
 /*--------------------------Skill Summary--------------------------*/
 
 div.skill-right-design-container {
-  width: 97%;
+  width: 97vw;
   padding: 5vh 5vw;
 }
 div.skill-right-design-container table {
-  width: 100%;
+  width: 100vw;
 }
 
 div.skill-right-design-container td {
