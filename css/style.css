@@ -141,6 +141,7 @@ div.myself img {
 /*===================== Section Titles=================*/
 div.section-title{
   background-color: #7AB89F;
+  padding-bottom: 10px;
   text-align: center;
   padding-top: 0.3vh;
   height: 15vh;
@@ -160,19 +161,17 @@ div.section-title p {
   opacity: 0.4;
 }
 div.section-container {
-  margin: 0;
+  margin-left: 10vw;
+  margin-right: 10vw;
   min-height: 80vh;
   width: 100%;
   display: flex;
 }
-div.section-left-design-container {
-  width: 3%;
-  background-color: #7AB89F;
-}
+
 /*========================Experience Section======================== */
 /*--------------------------Experience Summary--------------------------*/
 
-div.exp-educ-center-design-container {
+div.exp-educ-info-container {
   width: 77%;
   padding: 5vh 2vw;
 }
@@ -187,14 +186,15 @@ td.exp-educ-summary{
   font-size:24px;
   width: 100vw;
 }
-div.exp-educ-right-design-container {
+div.exp-educ-image-container {
   width: 20%;
+  margin-right: 10%;
   justify-content: center;
   padding-top: 5vh;
   padding-right: 5vw;
   padding-bottom: 2vh;
 }
-div.exp-educ-right-design-container img {
+div.exp-educ-image-container img {
   height: 300px;           /* image fits inside the box */
   width: 350px;          /* respects box height */
   object-fit: cover;         /* fills box while keeping aspect ratio */
@@ -205,27 +205,28 @@ div.exp-educ-right-design-container img {
 /*========================Skill Section======================== */
 /*--------------------------Skill Summary--------------------------*/
 
-div.skill-right-design-container {
-  width: 97%;
+div.skill-info-container {
+  margin-left: 5vw;
+  width: 100;
   padding: 5vh 5vw;
 }
-div.skill-right-design-container table {
+div.skill-info-container table {
   width: 100%;
 }
 
-div.skill-right-design-container td {
+div.skill-info-container td {
   justify-content: center;
   text-align: center;
 }
 
-div.skill-right-design-container img {
+div.skill-info-container img {
   object-fit: contain;
   height: 175px;
   width: 175px;
   padding: 5vh 5vw;
 }
 
-div.skill-right-design-container p {
+div.skill-info-container p {
   font-size: 24px;
   font-weight: bold;
 
